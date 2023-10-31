@@ -1,0 +1,161 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff6600;
+}
+
+/* Home Section Styles */
+#home {
+    background-image: url('https://www.fabhotels.com/blog/wp-content/uploads/2018/08/1400x600-6.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+#home p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #ff6600;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff3300;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(255, 102, 0, 0.2);
+}
+
+/* Section Styles */
+.section {
+    padding: 60px 0;
+}
+
+.section-heading {
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.service h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ff6600;
+}
+
+.service p {
+    font-size: 18px;
+}
+
+/* Plan Your Trip Section Styles */
+#plans {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+}
+
+.trip-planner label,
+.trip-planner input[type="text"],
+.trip-planner input[type="date"] {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.trip-planner button {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* Contact Section Styles */
+#contact {
+    
+    background-color: #0b0836;
+    color: #a00c0c;
+    text-align: center;
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: calc(100% - 40px);
+    max-width: 400px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+form button[type="submit"] {
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Add more specific styles and animations as needed for individual elements */

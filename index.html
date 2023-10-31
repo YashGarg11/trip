@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Trip Planner</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="section">
+        <div class="container">
+            <div id="scene-container">
+                <!-- Your 3D scene content goes here -->
+            </div>
+            <h1>Welcome to Trip Planner</h1>
+            <p>Your Ultimate Destination for Memorable Journeys</p>
+            <a href="#plans" class="cta-button">Plan Your Trip</a>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>At Trip Planner, we believe in making your travel experience extraordinary. With our advanced planning tools
+                and expert guidance, your dream vacation is just a click away.</p>
+        </div>
+    </section>
+
+    <section id="services" class="section">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Personalized Trip Planning</h3>
+                <p>We tailor your trip based on your preferences, ensuring every moment is memorable.</p>
+            </div>
+            <div class="service">
+                <h3>Expert Travel Advice</h3>
+                <p>Our travel experts provide valuable insights and recommendations for your journey.</p>
+            </div>
+            <div class="service">
+                <h3>24/7 Customer Support</h3>
+                <p>Need assistance during your trip? Our support team is available around the clock.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans" class="section">
+        <div class="container">
+            <h2>Plan Your Trip</h2>
+            <div class="trip-planner">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" placeholder="Enter your destination">
+                <label for="date">Date:</label>
+                <input type="date" id="date">
+                <button onclick="planTrip()">Plan Trip</button>
+            </div>
+            <div id="map"></div>
+            <div id="trip-details"></div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Contact our friendly team for support.</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Trip Planner. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
